@@ -18,6 +18,8 @@ body {
     width: 980px;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .org-header-wrapper .flex-table-item-primary {
