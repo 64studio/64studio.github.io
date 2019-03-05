@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 980px;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
     padding-right: 5px;
@@ -24,9 +24,8 @@ body {
 
 .org-header-wrapper .flex-table-item-primary {
     padding-left: 20px;
-    padding-right: 400px;
+    padding-right: 40px;
     white-space: normal;
-    width: 99%;
     display: table-cell;
     width: 1%;
     white-space: nowrap;
@@ -87,7 +86,6 @@ body {
 }
 
 .org-header-meta.has-blog.has-location .meta-item {
-    max-width: 278px;
     display: inline-block;
     max-width: 100%;
     padding-right: 18px;
