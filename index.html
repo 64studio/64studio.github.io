@@ -20,21 +20,29 @@
   <div class="container">
 
     <div class="flex-table org-header-wrapper">
-      <img alt="64 Studio" class="flex-table-item avatar" itemprop="image" src="64studio_logo.png" height="100" />
+      <img alt="64 Studio" class="flex-table-item logo" itemprop="image" src="64studio_logo.png" width="149" height="100" />
       <div class="flex-table-item flex-table-item-primary">
          <h1 class="org-name">
           Open source hardware and software for media
         </h1>
           <!-- <p class="org-description" itemprop="description"></p> -->
-          <ul class="org-header-meta has-location has-blog">
+          <ul class="org-header-meta">
+
               <li class="meta-item">
                 <svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
                 <span itemprop="location" title="Where is the Isle of Wight?"><a href="https://en.wikipedia.org/wiki/Isle_of_Wight">Isle of Wight</a></span>
               </li>
+
               <li class="meta-item">
                 <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
                 <a href="https://github.com/64studio" class="meta-link" itemprop="url" title="Fork and hack our stuff">64 Studio on GitHub</a>
               </li>
+
+              <li class="meta-item">
+                <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+                <a href="products.html" class="meta-link" itemprop="url" title="Products">64 Studio Products</a>
+              </li>
+
           </ul>
       </div>
     </div>
@@ -46,20 +54,36 @@
 	
 	<p>64 Studio Ltd. produces, integrates and documents open source hardware and software for media. We develop bespoke GNU/Linux distributions for our partners, package their applications for automated installation, and design embedded system hardware.</p>
 
-	  <h2>I<sup>2</sup>S audio latency on ARM</h2>
-	  <p>The <a href="https://en.wikipedia.org/wiki/I%C2%B2S">I<sup>2</sup>S format</a> used in the circuit board of your vintage CD player is proving very interesting as a peripheral interface for full-duplex, multi-channel audio boards on ARM devices. We have developed a distribution for the BeagleBone Black with the lowest audio latency figures we've seen on any GNU/Linux device. Please see our presentation at <a href="https://www.youtube.com/watch?v=vRpMAbILSEc">Embedded Linux Conference Europe</a> and the <a href="https://media.ccc.de/v/lac2018-35-open_hardware_multichannel_sound_interface_for_hearing_aid_research_on_beaglebone_black_with_openmha_cape4all">openMHA presentation video</a> from this year's Linux Audio Conference for the details.</p>
+<div align="center">
+<h2>New OpenMHA earpieces from Bat and Cat Corporation</h2>
 
+<img src="bat_and_cat_earpiece.jpg" class="portrait" width="382" height="500" alt="Bat and Cat earpiece circuit board"><br/>
+<small>Bat and Cat earpiece circuit board</small>
+</div>
+
+<p><a href="http://batandcat.com/">Bat and Cat Sound Labs</a> of Palo Alto, USA has created earpieces for the open hardware Cape4All multichannel soundcard. These earpieces will be used in a wearable device for hearing aid field trials. You can see a preview of the complete hardware system on the <a href="https://www.youtube.com/watch?v=xJlAEyHkXD0">64 Studio YouTube channel</a>.</p>
+
+<div align="center">
+	  <h2>Ultra-low I<sup>2</sup>S audio latency on ARM</h2>
+</div>
+	  
+	  <p>The <a href="https://en.wikipedia.org/wiki/I%C2%B2S">I<sup>2</sup>S format</a> used in the circuit board of your vintage CD player is proving very interesting as a peripheral interface for full-duplex, multi-channel audio boards on ARM devices. We have developed a hearing aid research distribution codenamed 'Mahalia' for the BeagleBone Black, with the lowest audio latency figures we've seen on any GNU/Linux device. Please see our presentation at <a href="https://www.youtube.com/watch?v=vRpMAbILSEc">Embedded Linux Conference Europe</a> below, and the <a href="https://media.ccc.de/v/lac2018-35-open_hardware_multichannel_sound_interface_for_hearing_aid_research_on_beaglebone_black_with_openmha_cape4all">openMHA presentation video</a> from the Linux Audio Conference for the details.</p>
+
+<div align="center">
+<iframe class="wide" width="500" height="281" src="https://www.youtube.com/embed/vRpMAbILSEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<small>Presentation at Embedded Linux Conference Europe</small>
+</div>
+
+<div align="center">
 	  <h2>Wondering how we do it?</h2>
-          <p>Find out how to build the software for GNU/Linux audio appliances and why we recommend Debian in this <a href="https://media.ccc.de/v/lac2018-30-how_to_create_real_time_audio_appliances_with_debian_gnu_linux">PDK tutorial video</a>.</p> 	
+</div>
+          <p>Find out how to build the software for GNU/Linux audio appliances and why we recommend Debian in this <a href="https://media.ccc.de/v/lac2018-30-how_to_create_real_time_audio_appliances_with_debian_gnu_linux">PDK tutorial video</a>.</p>
 	
-	  <h2>The PiDeck project</h2>
-	  <iframe width="720" height="480" src="https://www.youtube.com/embed/epR50swm96o" frameborder="0" allowfullscreen></iframe>
-	  <p><a href="http://pideck.com/">PiDeck</a> is an open source hardware and Free Software project retro-fitting the Raspberry Pi onto a turntable. It's a fun project, but also an R&amp;D testbed for realtime performance on inexpensive ARM hardware. The software is based on the armhf (ARM Hard Float) port of Debian GNU/Linux and xwax. This software is built into a custom single-purpose distribution (using <a href="https://github.com/64studio/pdk">PDK</a>), which you can hack on, or just <a href="https://github.com/pideck/pideck-distro/releases" class="meta-link" itemprop="url" title="Download PiDeck">download</a> and put on a micro SD card for your own Pi.</p>
-	  
-	  <h2>Looking for the 64 Studio distro?</h2>
-	  <p>From 2005 we built a GNU/Linux distribution '64 Studio' which was the first multimedia workstation for the AMD64 architecture, winning critical acclaim for its stability and high performance. The best of this work can now be enjoyed in official <a href="https://www.debian.org/">Debian</a> and <a href="https://www.ubuntu.com/">Ubuntu</a> releases.</p>
-	  
+
+<div align="center">	
 	  <h2>Contact</h2>
+</div>
 	  <p>Please email daniel at 64studio.com for all enquiries. Our postal address is 63 School Green Road, Freshwater, Isle of Wight, PO40 9AT, Great Britain.</p>
 </div>
 

@@ -82,7 +82,7 @@ body {
     fill: currentColor;
 }
 
-.org-header-meta.has-blog.has-location .meta-item {
+.org-header-meta .meta-item {
     display: inline-block;
     max-width: 100%;
     padding-right: 18px;
@@ -116,16 +116,52 @@ a:visited {
     color: #483fbf;
 }
 
+h2 {
+    margin-top: 30px;
+}
+
 @media screen and (max-width:480px) {
     iframe {
         width: 300px;
         height: 200px;
-  }
+    }
+    iframe.wide {
+        width: 300px;
+        height: 169px;
+    }
+    img {
+        max-width: 300px;
+        height: auto;
+    }
+    img.portrait {
+        max-height: 300px;
+        width: auto;
+    }
+    img.logo {
+        width: 149px;
+        height: 100px;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:760px) {
     iframe {
         width: 450px;
-        height: 300px;
-  }
+        height: 301px;
+    }
+    iframe.wide {
+        width: 450px;
+        height: 253px;
+    }
+    img {
+        max-width: 450px;
+        height: auto;
+    }
+    img.portrait {
+        max-height: 450px;
+        width: auto;
+    }
+    img.logo {
+        width: 149px;
+        height: 100px;
+    }
 }
