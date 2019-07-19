@@ -1,17 +1,33 @@
+@font-face {
+    font-family: 'linux_biolinum_oregular';
+    src: url('linbiolinum_r-webfont.woff2') format('woff2'),
+         url('linbiolinum_r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'crimsonroman';
+    src: url('crimson-roman-webfont.woff2') format('woff2'),
+         url('crimson-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: crimsonroman;
+    font-size: 18px;
     line-height: 1.5;
-    color: #333;
-    background-color: #fff;
+    color: #fff;
+    background-color: #1D699A;
     margin: 0;
 }
 
 .header {
     padding-top: 8px;
     padding-bottom: 10px;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
 .container {
@@ -21,6 +37,7 @@ body {
     margin-left: auto;
     padding-right: 5px;
     padding-left: 5px;
+
 }
 
 .org-header-wrapper .flex-table-item-primary {
@@ -38,9 +55,8 @@ body {
 .orghead {
     padding-top: 20px;
     padding-bottom: 0;
-    color: #666;
-    background-color: #fafafa;
-    border-bottom: 1px solid #eee;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
 }
 
 .org-name {
@@ -50,13 +66,6 @@ body {
     font-size: 32px;
     margin-top: -5px;
     margin-bottom: 0;
-}
-
-.org-description {
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-size: 16px;
-    line-height: 1.25;
 }
 
 .org-header-meta {
@@ -90,34 +99,50 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .site-footer {
+    font-family: sans-serif; 
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 40px;
     font-size: 12px;
     line-height: 1.5;
-    color: #767676;
+    color: #eee;
     border-top: 1px solid #eee;
 }
 
 a {
     text-decoration: none;
-    color: #4078c0;
+    color: #94D5FF;
+}
+
+.orghead a {
+    color: #1D699A;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-a:visited {
-    color: #483fbf;
+h1 {
+    font-family: 'linux_biolinum_oregular';
+    font-style: italic;
 }
 
 h2 {
+    font-family: 'linux_biolinum_oregular';
+    font-size: 20px;
+    background-color: #05436c;
+    color: white;
     margin-top: 30px;
+    padding: 5px;
+}
+
+small {
+    padding: 5px;
 }
 
 @media screen and (max-width:480px) {
@@ -138,8 +163,8 @@ h2 {
         width: auto;
     }
     img.logo {
-        width: 149px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
     }
 }
 
@@ -161,7 +186,7 @@ h2 {
         width: auto;
     }
     img.logo {
-        width: 149px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 }
