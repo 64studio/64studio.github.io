@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'linux_biolinum_oregular';
     src: url('linbiolinum_r-webfont.woff2') format('woff2'),
-         url('linbiolinum_r-webfont.woff') format('woff');
+           url('linbiolinum_r-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'crimsonroman';
     src: url('crimson-roman-webfont.woff2') format('woff2'),
-         url('crimson-roman-webfont.woff') format('woff');
+           url('crimson-roman-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,8 +27,7 @@ body {
     width: 720px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px 0 10px;
 }
 
 .org-header-wrapper {
@@ -43,21 +42,19 @@ body {
 
 .orghead {
     padding-bottom: 0;
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
 }
 
 .org-name {
     font-weight: 400;
-    color: #333;
+    color: #eee;
     line-height: 1.25 !important;
     font-size: 32px;
-    margin-top: 55px;
+    margin-top: 75px;
     width: 500px;
 }
 
 .org-header-meta {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
     list-style: none;
     float: right;
@@ -107,10 +104,6 @@ a {
     color: #94D5FF;
 }
 
-.orghead a {
-    color: #1D699A;
-}
-
 a:hover {
     text-decoration: underline;
 }
@@ -131,8 +124,8 @@ h2 {
 
 img.logo {
     float: left;
-    padding-top: 15px;
-    padding-right: 25px;
+    padding-top: 35px;
+    padding-right: 35px;
     padding-bottom: 10px;
 }
 
