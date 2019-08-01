@@ -146,8 +146,12 @@ li {
 }
 
 @media screen and (max-width:480px) {
+    body {
+        background-color: #1D699A;
+    }
     .container {
         width: 300px;
+        padding: 0 10px 0 10px;
     }
     iframe {
         width: 300px;
@@ -192,6 +196,7 @@ li {
 @media screen and (min-width:481px) and (max-width:760px) {
     .container {
         width: 450px;
+        padding: 0 15px 0 15px;
     }
     iframe {
         width: 450px;
